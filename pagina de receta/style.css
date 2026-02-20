@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #fff;
+}
+
+/*header*/
+.header-landing{
+display: flex;
+justify-content: center;
+background: black;
+padding: 0.25rem;
+}
+.logo-header{
+    max-width: 35px;
+    height: 100%;
+    width: 100%;
+}
+/*seccion*/
+/*img*/
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.page .img-ceviche {
+    width: 20%;
+    min-width: 20%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  
+}
+.receta {
+    display: flex;
+    justify-content: space-between; /* Ajusta el espacio entre los contenedores */
+    gap: 20px; /* Espacio entre los contenedores, puedes ajustar este valor */
+}
+
+.ingredientes, .instrucciones {
+    flex: 1; /* Los dos contenedores tendrán el mismo ancho */
+    border: 1px solid #ccc; /* Agrega un borde opcional para distinguir los contenedores */
+    padding: 10px; /* Agrega un poco de espacio interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra opcional para darle un efecto de profundidad */
+    text-decoration: none;
+}
+
+.ingredientes h3, .instrucciones h3 {
+    margin-top: 0; /* Elimina el margen superior de los encabezados */
+    text-decoration: none;
+}
+
+.ingredientes ul, .instrucciones ul {
+    list-style-type: none; /* Elimina los puntos de las listas */
+    padding-left: 0; /* Elimina el espacio adicional a la izquierda de las listas */
+}
+
+.ingredientes li, .instrucciones li {
+    margin-bottom: 8px; /* Agrega un pequeño margen inferior a los elementos de lista para separación */
+}
+
+/*footer*/
+.footer-seccion{
+    max-width: 1200px;
+    margin: auto;
+}
+.menu-footer{
+    padding: 1rem 0;
+}
+.footer-cards p{
+display: flex;
+justify-content: center;
+}

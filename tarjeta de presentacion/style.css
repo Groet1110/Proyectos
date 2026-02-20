@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background: url(); /* Asegúrate de añadir una URL para la imagen de fondo si es necesario */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil {
+    width: 400px;
+    text-align: center;
+}
+
+.perfil .header {
+    background: #2c3a47;
+    padding: 40px 40px 60px;
+}
+
+.perfil .header img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.perfil .header .imagen {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 50px;
+    background: linear-gradient(130deg, #74b9ff, #e66767);
+}
+
+.perfil .header .nombre {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.perfil .header .descripcion {
+    font-size: 18px;
+    color: white;
+}
+
+.perfil .header .elementos {
+    margin: 25px auto 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil .header .elementos a {
+    color: white;
+    width: 50px;
+    font-size: 22px;
+    transition: color 0.3s ease-in-out; /* Añadido para transiciones suaves en hover */
+}
+
+.perfil .header .elementos .fa-facebook:hover {
+    color: black;
+}
+
+.perfil .header .elementos .fa-twitter:hover {
+    color: black;
+}
+
+.perfil .header .elementos .fa-github:hover {
+    color: black;
+}
+
+.perfil .header .elementos .fa-youtube:hover {
+    color: black;
+}

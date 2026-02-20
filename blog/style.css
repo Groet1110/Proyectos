@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+    background: #039ee6;
+}
+
+header h1 {
+    background: #039ee6;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+    border-bottom: 10px solid #fff;
+    font-size: 3rem; /* Changed to rem for better scalability */
+}
+
+nav {
+    background: black;
+    height: 50px;
+    border-bottom: 5px solid #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px; /* Added margin for spacing */
+    color: #fff;
+    font-size: 1.25rem; /* Changed to rem for better scalability */
+    line-height: 50px; /* Align with nav height */
+}
+
+.clear {
+    clear: both;
+}
+
+#contenido {
+    float: left;
+    width: calc(80% - 80px); /* Fixed the syntax */
+    min-height: 500px;
+    background: #fff;
+    padding: 40px;
+}
+.article{
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.aside{
+    float: right;
+    width: calc(20% - 20px);
+    min-height: 500px;
+    background: #039ee6;
+    padding: 10px;
+}
+footer{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
