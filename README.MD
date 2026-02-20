@@ -1,30 +1,26 @@
-# 💼 Portafolio de Proyectos Web
+# 📚 Colección de Prácticas Frontend
 
-Bienvenido a mi repositorio de proyectos desarrollados con HTML, CSS y JavaScript.
+Este repositorio contiene una serie de ejercicios y mini proyectos desarrollados como práctica en desarrollo web.
 
-Aquí encontrarás diferentes prácticas y mini proyectos enfocados en el desarrollo frontend.
+El objetivo es reforzar conocimientos en estructura, estilos y lógica con JavaScript.
 
 ---
 
-## 🚀 Proyectos incluidos
+## 🧠 Prácticas Incluidas
 
-### 🎯 Adivinanza de números
-Juego interactivo donde el usuario debe adivinar un número aleatorio.
-
-### 🧮 Calculadora simple
-Calculadora funcional desarrollada con JavaScript.
-
-### 📝 Lista de tareas
-Aplicación para agregar y eliminar tareas dinámicamente.
-
-### 🖼️ Galería de imágenes
-Galería interactiva con efectos y navegación.
-
-### 🔐 Página Login
-Formulario de autenticación con validaciones básicas.
-
-### ⏰ Reloj Digital
-Reloj en tiempo real usando JavaScript.
+- 🎯 Adivinanza de números
+- 🧮 Calculadora simple
+- 📝 Lista de tareas
+- 🖼️ Galería de imágenes
+- 🔐 Página login
+- ⏰ Reloj digital
+- 💳 Tarjeta de presentación
+- 📄 Landing page
+- 📊 Página de precios
+- 🧭 Menú de navegación
+- 🍽️ Página de receta
+- 📝 Formulario de contacto
+- 📰 Blog básico
 
 ---
 
@@ -36,12 +32,7 @@ Reloj en tiempo real usando JavaScript.
 
 ---
 
-## 📌 Objetivo
+## 🎯 Propósito
 
-Este repositorio forma parte de mi práctica y crecimiento como desarrollador frontend.
-
----
-
-## 👨‍💻 Autor
-
-Mateo
+Repositorio destinado únicamente a prácticas y ejercicios de aprendizaje.
+Más adelante evolucionará a un portafolio profesional.
